@@ -1,0 +1,134 @@
+* {
+    background-color: #f9f9f8;
+}
+
+main {
+    display: flex;
+    margin-top: 162px;
+    margin-bottom: 162px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.seccion1,
+.seccion2 {
+    flex: 1;
+    /* Ambas secciones ocupan el mismo espacio disponible */
+}
+
+.circle-container {
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+svg {
+    width: auto;
+    height: 40px;
+}
+
+h1 {
+    font-family: 'Sora', sans-serif;
+    font-size: 36px;
+    margin-top: 16px;
+    margin-bottom: 12px;
+    color: #18181B;
+}
+
+.seccion1 p {
+    font-family: 'Sora', sans-serif;
+    color: #52525A;
+    font-size: 20px;
+    margin-bottom: 32px;
+    line-height: 1.5;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    /* Para que cada par de elementos esté en su propia línea */
+    font-family: 'Sora', sans-serif;
+    color: #52525A;
+    font-size: 14px;
+    margin-bottom: 32px;
+}
+
+.item {
+    display: flex;
+    /* Alinea la imagen y el texto en la misma línea */
+    align-items: center;
+    /* Alinea verticalmente la imagen y el texto */
+    margin-bottom: 12px;
+    /* Espacio entre las líneas */
+}
+
+.item img {
+    margin-right: 8px;
+    /* Espacio entre la imagen y el texto */
+}
+
+.seccion2 {
+    padding-right: 0px;
+    padding-left: 28px;
+    padding-top: 5px;
+    font-family: 'Sora', sans-serif;
+}
+
+.seccion2 h2,
+p {
+    font-family: 'Sora', sans-serif;
+    /* Aplica la fuente Sora a h2 */
+    font-size: 16px;
+}
+
+.seccion2 p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.google {
+    background-color: #FFFFFF;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 280px;
+    padding-bottom: 28px;
+    padding-top: 28px;
+    margin-left: 210px;
+}
+
+#google {
+    width: 80px;
+    margin-right: 20px;
+}
+
+.meta {
+    background-color: #FFFFFF;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 280px;
+    padding-bottom: 28px;
+    padding-top: 28px;
+    margin-left: 0px;
+}
+
+#meta {
+    width: 80px;
+    margin-right: 20px;
+}
+
+.seccion2 p {
+    color: #52525A;
+}
+
+.seccion2 img,
+h2 {
+    background-color: #FFFFFF;
+}
+
+.seccion2 p {
+    background-color: #FFFFFF;
+}
+
+.starts {
+    display: flex;
+}
